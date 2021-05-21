@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.paint.RadialGradient?>
+<?import javafx.scene.paint.Stop?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="421.0" prefWidth="701.0" styleClass="bodybg" stylesheets="@start_style.css" xmlns="http://javafx.com/javafx/11.0.4" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Button fx:id="startBtn" layoutX="76.0" layoutY="242.0" mnemonicParsing="false" onAction="#handleStartBtn" prefHeight="49.0" prefWidth="111.0" stylesheets="@start_style.css" text="Start Game" textFill="#101110">
+         <font>
+            <Font name="Bitstream Vera Sans Bold" size="13.0" />
+         </font>
+         <effect>
+            <DropShadow color="#cf0893" />
+         </effect></Button>
+      <Text fontSmoothingType="LCD" layoutX="118.0" layoutY="88.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Morty's Adventure" wrappingWidth="582.5390625">
+         <font>
+            <Font name="Bitstream Vera Serif Bold" size="48.0" />
+         </font>
+         <fill>
+            <RadialGradient centerY="0.0913461538461539" cycleMethod="REFLECT" focusAngle="57.53" focusDistance="1.0" radius="0.6309523809523809">
+               <stops>
+                  <Stop color="#280c83" />
+                  <Stop color="#b3b983" offset="0.9962962962962963" />
+                  <Stop color="#b3b983" offset="1.0" />
+               </stops>
+            </RadialGradient>
+         </fill>
+         <effect>
+            <DropShadow color="#dd18da" />
+         </effect>
+      </Text>
+      <Button fx:id="insBtn" layoutX="76.0" layoutY="319.0" mnemonicParsing="false" onAction="#handleInsBtn" prefHeight="49.0" prefWidth="111.0" stylesheets="@start_style.css" text="Instruction" textFill="#101110">
+         <font>
+            <Font name="Bitstream Vera Sans Bold" size="13.0" />
+         </font>
+         <effect>
+            <DropShadow color="#cf0893" />
+         </effect>
+      </Button>
+   </children>
+</Pane>

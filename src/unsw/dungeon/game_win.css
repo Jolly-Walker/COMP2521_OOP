@@ -1,0 +1,20 @@
+.bodybg{
+ -fx-background-image: url('game_win.jpg');
+}
+
+.button {
+    -fx-background-color:
+        linear-gradient(#B0C4DE, #FFB6C1),
+        radial-gradient(center 70% -40%, radius 200%, #000000 45%, #000000 50%);
+    -fx-background-radius: 6, 5;
+    -fx-background-insets: 0, 1;
+}
+.button:hover{
+    -fx-background-color:
+        linear-gradient(#FFB6C1, #B0C4DE),
+        radial-gradient(center 70% -40%, radius 200%, #00FF00 50%, #32CD32 45%);
+    -fx-background-radius: 6, 5;
+    -fx-background-insets: 0, 1;
+    -fx-text-fill: black;
+
+}

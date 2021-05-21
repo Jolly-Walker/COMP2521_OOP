@@ -1,0 +1,15 @@
+.bodybg{
+ -fx-background-image: url('end.jpg');
+}
+
+.button {
+    -fx-background-color:
+        linear-gradient(#B0C4DE, #FFB6C1),
+        radial-gradient(center 70% -40%, radius 200%, #000000 45%, #000000 50%);
+    -fx-background-radius: 6, 5;
+    -fx-background-insets: 0, 1;
+}
+.button:hover{
+    -fx-background-color: transparent
+    -fx-text-fill black;
+}

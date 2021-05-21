@@ -1,0 +1,416 @@
+{
+    "width": 30,
+    "height": 18,
+    "entities": [
+      {
+        "x": 1,
+        "y": 1,
+        "type": "player"
+      },
+      {
+        "x": 6,
+        "y": 1,
+        "type": "sword"
+      },
+      {
+        "x": 16,
+        "y": 3,
+        "type": "sword"
+      },
+      {
+        "x": 3,
+        "y": 17,
+        "type": "enemy"
+      },
+      {
+        "x": 4,
+        "y": 14,
+        "type": "enemy"
+      },
+      {
+        "x": 3,
+        "y": 13,
+        "type": "enemy"
+      },
+      {
+        "x": 2,
+        "y": 12,
+        "type": "enemy"
+      },
+      {
+        "x": 0,
+        "y": 14,
+        "type": "enemy"
+      },
+      {
+        "x": 0,
+        "y": 12,
+        "type": "enemy"
+      },
+      {
+        "x": 8,
+        "y": 10,
+        "type": "enemy"
+      },
+      {
+        "x": 7,
+        "y": 15,
+        "type": "enemy"
+      },
+      {
+        "x": 6,
+        "y": 12,
+        "type": "enemy"
+      },
+      {
+        "x": 25,
+        "y": 15,
+        "type": "enemy"
+      },
+      {
+        "x": 21,
+        "y": 15,
+        "type": "enemy"
+      },
+      {
+        "x": 23,
+        "y": 12,
+        "type": "enemy"
+      },
+      {
+        "x": 25,
+        "y": 2,
+        "pid": 2,
+        "type": "portal"
+      },
+      {
+        "x": 5,
+        "y": 16,
+        "pid": -2,
+        "type": "portal"
+      },
+      {
+        "x": 27,
+        "y": 5,
+        "type": "invincibility"
+      },
+      {
+        "x": 3,
+        "y": 0,
+        "kid": 1,
+        "type": "key"
+      },
+      {
+        "x": 7,
+        "y": 7,
+        "kid": 2,
+        "type": "key"
+      },
+      {
+        "x": 9,
+        "y": 12,
+        "did": 1,
+        "type": "door"
+      },
+      {
+        "x": 19,
+        "y": 9,
+        "did": 2,
+        "type": "door"
+      },
+      {
+        "x": 29,
+        "y": 17,
+        "type": "exit"
+      },
+      {
+        "x": 10,
+        "y": 12,
+        "type": "treasure"
+      },
+      {
+        "x": 18,
+        "y": 16,
+        "type": "treasure"
+      },
+      {
+        "x": 23,
+        "y": 17,
+        "type": "treasure"
+      },
+      {
+        "x": 9,
+        "y": 11,
+        "type": "wall"
+      },
+      {
+        "x": 10,
+        "y": 11,
+        "type": "wall"
+      },
+      {
+        "x": 11,
+        "y": 11,
+        "type": "wall"
+      },
+      {
+        "x": 11,
+        "y": 12,
+        "type": "wall"
+      },
+      {
+        "x": 11,
+        "y": 13,
+        "type": "wall"
+      },
+      {
+        "x": 11,
+        "y": 13,
+        "type": "wall"
+      },
+      {
+        "x": 10,
+        "y": 13,
+        "type": "wall"
+      },
+      {
+        "x": 9,
+        "y": 13,
+        "type": "wall"
+      },
+      {
+        "x": 11,
+        "y": 10,
+        "type": "wall"
+      },
+      {
+        "x": 11,
+        "y": 9,
+        "type": "wall"
+      },
+      {
+        "x": 11,
+        "y": 14,
+        "type": "wall"
+      },
+      {
+        "x": 11,
+        "y": 15,
+        "type": "wall"
+      },
+      {
+        "x": 11,
+        "y": 16,
+        "type": "wall"
+      },
+      {
+        "x": 11,
+        "y": 17,
+        "type": "wall"
+      },
+      {
+        "x": 1,
+        "y": 9,
+        "type": "wall"
+      },
+      {
+        "x": 2,
+        "y": 9,
+        "type": "wall"
+      },
+      {
+        "x": 3,
+        "y": 9,
+        "type": "wall"
+      },
+      {
+        "x": 4,
+        "y": 9,
+        "type": "wall"
+      },
+      {
+        "x": 5,
+        "y": 9,
+        "type": "wall"
+      },
+      {
+        "x": 6,
+        "y": 9,
+        "type": "wall"
+      },
+      {
+        "x": 7,
+        "y": 9,
+        "type": "wall"
+      },
+      {
+        "x": 8,
+        "y": 9,
+        "type": "wall"
+      },
+      {
+        "x": 9,
+        "y": 9,
+        "type": "wall"
+      },
+      {
+        "x": 10,
+        "y": 9,
+        "type": "wall"
+      },
+      {
+        "x": 12,
+        "y": 9,
+        "type": "wall"
+      },
+      {
+        "x": 13,
+        "y": 9,
+        "type": "wall"
+      },
+      {
+        "x": 14,
+        "y": 9,
+        "type": "wall"
+      },
+      {
+        "x": 15,
+        "y": 9,
+        "type": "wall"
+      },
+      {
+        "x": 16,
+        "y": 9,
+        "type": "wall"
+      },
+      {
+        "x": 17,
+        "y": 9,
+        "type": "wall"
+      },
+      {
+        "x": 18,
+        "y": 9,
+        "type": "wall"
+      },
+      {
+        "x": 20,
+        "y": 9,
+        "type": "wall"
+      },
+      {
+        "x": 0,
+        "y": 9,
+        "type": "wall"
+      },
+      {
+        "x": 21,
+        "y": 9,
+        "type": "wall"
+      },
+      {
+        "x": 22,
+        "y": 9,
+        "type": "wall"
+      },
+      {
+        "x": 23,
+        "y": 9,
+        "type": "wall"
+      },
+      {
+        "x": 24,
+        "y": 9,
+        "type": "wall"
+      },
+      {
+        "x": 25,
+        "y": 9,
+        "type": "wall"
+      },
+      {
+        "x": 26,
+        "y": 9,
+        "type": "wall"
+      },
+      {
+        "x": 27,
+        "y": 9,
+        "type": "wall"
+      },
+      {
+        "x": 28,
+        "y": 9,
+        "type": "wall"
+      },
+      {
+        "x": 29,
+        "y": 9,
+        "type": "wall"
+      },
+      {
+        "x": 9,
+        "y": 10,
+        "type": "wall"
+      },
+      {
+        "x": 10,
+        "y": 10,
+        "type": "wall"
+      },
+      {
+        "x": 9,
+        "y": 14,
+        "type": "wall"
+      },
+      {
+        "x": 10,
+        "y": 14,
+        "type": "wall"
+      },
+      {
+        "x": 9,
+        "y": 15,
+        "type": "wall"
+      },
+      {
+        "x": 10,
+        "y": 15,
+        "type": "wall"
+      },
+      {
+        "x": 9,
+        "y": 16,
+        "type": "wall"
+      },
+      {
+        "x": 10,
+        "y": 16,
+        "type": "wall"
+      },
+      {
+        "x": 9,
+        "y": 17,
+        "type": "wall"
+      },
+      {
+        "x": 10,
+        "y": 17,
+        "type": "wall"
+      }
+    ],
+    "goal-condition": {
+      "goal": "AND",
+      "subgoals": [
+        {
+          "goal": "enemies"
+        },
+        {
+          "goal": "treasure"
+        },
+        {
+          "goal": "exit"
+        }
+      ]
+    }
+  }
